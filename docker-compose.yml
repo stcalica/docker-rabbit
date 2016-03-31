@@ -1,0 +1,7 @@
+version: '2'
+services:
+ rabbit:
+  container_name: rabbit
+  image: rabbitmq
+  ports:
+    - "5627:5627"
